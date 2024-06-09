@@ -10,7 +10,7 @@
 
 This project is a web application that allows users to effectively manage their personal finances. The key feature of this application is the use of PWA technology, enabling users to access it offline thanks to its content caching capabilities.
 
-![](demo-befit.gif)
+![](demo-fin-track.gif)
 
 ## Technologies
 Project is created with:
