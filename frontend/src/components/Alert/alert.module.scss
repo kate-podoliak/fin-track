@@ -1,0 +1,26 @@
+.customAlert {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  padding: 8px 20px;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+
+  .closeBtn {
+    background: none;
+    border: none;
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+  }
+}
+
+.error {
+  background-color: #eb575780;
+}
+
+.success {
+  background-color: #27ae6080;
+}

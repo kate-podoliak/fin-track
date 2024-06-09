@@ -1,0 +1,233 @@
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+  margin: 5px 0;
+}
+
+.header {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.leftContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.rightContainer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.iconUpdate {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.details {
+
+}
+
+.title {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: e-Ukraine;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #808080;
+}
+
+.subtitleTransaction {
+  font-size: 10px;
+  color: #808080;
+  line-height: 1;
+}
+
+.amount {
+  font-size: 14px;
+  padding: 5px 5px;
+  border-radius: 15px;
+  font-weight: bold;
+  text-align: center;
+  min-width: 90px;
+  color: #4F4F4F;
+}
+
+.descriptionAccordion {
+  font-size: 10px;
+  flex-grow: 1;
+  margin: 0 0 0 11px;
+}
+
+.amountAccordion {
+  font-size: 10px;
+  padding: 0 5px;
+  border-radius: 15px;
+  font-weight: bold;
+  text-align: center;
+  color: #4F4F4F;
+  margin-right: 4px;
+  width: 65px;
+}
+
+.description {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+
+  div {
+    display: flex;
+  }
+}
+
+.controlButton {
+  display: flex;
+  gap: 10px;
+  @media only screen and (max-width: 380px) {
+    gap: 5px;
+  }
+}
+
+.update {
+  background-image: url("../../assets/img/edit.svg");
+  background-repeat: no-repeat;
+  padding: 11px;
+  background-size: cover;
+  border: none;
+  background-color: transparent;
+}
+
+.delete {
+  cursor: pointer;
+  background-image: url("../../assets/img/delete.svg");
+  background-repeat: no-repeat;
+  padding: 11px;
+  background-size: cover;
+  border: none;
+  background-color: transparent;
+}
+
+.buttonSave {
+  font-size: 14px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-weight: bold;
+  text-align: center;
+  background-color: black;
+  min-width: 65px;
+  color: white;
+}
+
+.leftContainerEdit {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.rightContainerEdit {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+
+.buttonRight {
+  min-width: 90px;
+}
+
+.buttonSaveTransaction {
+  display: block !important;
+  font-size: 14px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-weight: bold;
+  text-align: center;
+  background-color: black;
+  min-width: 90px;
+  color: white;
+}
+
+.titleUpdate {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: e-Ukraine;
+  border: 1px solid #808080;
+  border-radius: 15px;
+  padding: 8px 10px;
+  margin-right: 5px;
+  width: 130px;
+}
+
+.iconContainer {
+  align-items: center;
+  padding: 0 10px;
+}
+
+.containerButton {
+  gap: 10px;
+  place-items: center;
+  min-width: 90px;
+  justify-content: center;
+}
+
+
+
+.containerUpdate {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.containerData {
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+.containerInput {
+  background-color: red;
+}
+
+.date {
+  font-size: 12px;
+  padding-top: 4px;
+}
+
+.inputDescription {
+  font-size: 10px;
+  font-family: e-Ukraine;
+  border: 1px solid #808080;
+  border-radius: 15px;
+  padding: 8px 10px;
+  width: 130px;
+}
+
+.inputAmount {
+  font-size: 10px;
+  font-family: e-Ukraine;
+  border: 1px solid #808080;
+  border-radius: 15px;
+  padding: 8px 5px;
+  width: 65px;
+  text-align: center;
+}

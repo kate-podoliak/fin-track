@@ -1,0 +1,41 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "watch": "nodemon -w . -e js,jsx,ts,tsx -x 'npm run build && npm run start'"
+  },
+  "dependencies": {
+    "@nextui-org/react": "^2.1.13",
+    "@types/react-dom": "18.2.10",
+    "axios": "^1.6.2",
+    "chart.js": "^4.4.1",
+    "date-fns": "^3.0.6",
+    "dexie": "^3.2.4",
+    "eslint": "8.50.0",
+    "eslint-config-next": "13.5.4",
+    "framer-motion": "^10.16.4",
+    "next": "13.5.4",
+    "next-pwa": "^5.6.0",
+    "nextjs-tui-date-picker": "^2.2.2",
+    "nextjs-tui-date-range-picker": "^2.1.0",
+    "node-sass": "^9.0.0",
+    "react": "18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-color": "^2.19.3",
+    "react-dom": "18.2.0",
+    "react-select": "^5.8.0",
+    "sass": "^1.69.5",
+    "sass-loader": "^13.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.2",
+    "@types/react": "^18.2.25",
+    "@types/react-color": "^3.0.10",
+    "typescript": "^5.2.2"
+  }
+}

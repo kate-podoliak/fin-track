@@ -1,0 +1,29 @@
+.buttonContainer {
+  padding: 10px 0;
+}
+
+.button {
+  padding: 15px;
+  width: 45%;
+  border-radius: 30px;
+  border: none;
+  background-color: #000000;
+  color: #ffff;
+  font-size: 16px;
+  font-weight: bold;
+
+  &:hover {
+    opacity: .7;
+    cursor: pointer;
+  }
+}
+
+.buttonWide {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.buttonContainerCenter {
+  text-align: center;
+}
